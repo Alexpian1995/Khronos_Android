@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Título de bienvenida -->
+        <TextView
+            android:id="@+id/textViewTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bienvenidos a Khronos"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/Lavander" />
+
+        <!-- Descripción del proyecto -->
+        <TextView
+            android:id="@+id/textViewDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="TimeRoster es una aplicación de gestión de horarios diseñada para facilitar el registro y seguimiento de la asistencia de empleados."
+            android:textColor="@android:color/black"/>
+
+        <!-- Características principales -->
+        <TextView
+            android:id="@+id/listFeatures"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Características Principales:\n- Registro de Asistencia\n- Gestión de Ausencias\n- Aprobación de Registros\n- Exportación a PDF"
+            android:textStyle="bold"
+            android:textColor="@android:color/black" />
+
+        <!-- Tecnologías utilizadas -->
+        <TextView
+            android:id="@+id/listTechnologies"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Tecnologías Utilizadas:\n- Frontend: React.js\n- Backend: Firebase"
+            android:textColor="@android:color/black" />
+
+        <!-- Objetivo del proyecto -->
+        <TextView
+            android:id="@+id/textViewObjective"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Objetivo: Optimizar la gestión del tiempo laboral y promover la transparencia en la administración de recursos humanos."
+            android:textColor="@android:color/black"/>
+    </LinearLayout>
+</ScrollView>

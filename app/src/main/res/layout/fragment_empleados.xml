@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Edit Texts for Name and Documento -->
+    <EditText
+        android:id="@+id/editName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre"
+        android:enabled="false"
+        android:padding="10dp"/>
+
+    <EditText
+        android:id="@+id/editDocumento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Documento"
+        android:enabled="false"
+        android:padding="10dp"/>
+
+    <!-- Buttons for Save and Cancel -->
+    <Button
+        android:id="@+id/saveButton"
+        android:text="Guardar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onSaveClicked"
+        android:padding="10dp"/>
+
+    <Button
+        android:id="@+id/cancelButton"
+        android:text="Cancelar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onCancelClicked"
+        android:padding="10dp"/>
+
+    <!-- Table Layout for Employees -->
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="0"
+        android:shrinkColumns="0"/>
+
+</LinearLayout>

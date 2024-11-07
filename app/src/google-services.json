@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "83599243047",
+    "project_id": "timeroster-fb2bf",
+    "storage_bucket": "timeroster-fb2bf.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:83599243047:android:649d8bceb03b2008849b02",
+        "android_client_info": {
+          "package_name": "com.example.khronos"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDj6eYbNx4WKZAeohSuTZTIosOerUq_REM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:83599243047:android:df984a335fe346de849b02",
+        "android_client_info": {
+          "package_name": "com.example.prueba_firebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDj6eYbNx4WKZAeohSuTZTIosOerUq_REM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:83599243047:android:93590f87b62a331e849b02",
+        "android_client_info": {
+          "package_name": "com.example.timeroster"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDj6eYbNx4WKZAeohSuTZTIosOerUq_REM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
